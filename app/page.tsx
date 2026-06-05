@@ -212,34 +212,6 @@ export default function Home() {
         </button>
       </section>
 
-      {/* TESTIMONIAL */}
-      <section style={{ padding:'36px 20px',background:'#ECE7DE' }}>
-        <div style={{ fontSize:'9px',fontWeight:600,color:'#A8A09A',letterSpacing:'2.5px',textTransform:'uppercase',marginBottom:'6px' }}>Cerita Reseller</div>
-        <div style={{ fontFamily:'var(--font-heading)',fontSize:'20px',fontWeight:400,color:'#1A1714',lineHeight:1.28,marginBottom:'4px' }}>Yang bilang sendiri</div>
-        <div style={{ fontSize:'12px',color:'#5A5248',lineHeight:1.65,marginBottom:'18px' }}>Mereka mulai dari langkah kecil. Ini dari chat WA-nya langsung.</div>
-        <div style={{ background:'#FFF',borderRadius:'12px',overflow:'hidden' }}>
-          <div style={{ background:'#075E54',padding:'12px 16px',display:'flex',alignItems:'center',gap:'10px' }}>
-            <div style={{ width:'34px',height:'34px',borderRadius:'50%',background:'#C4A090',display:'flex',alignItems:'center',justifyContent:'center',fontSize:'13px',fontWeight:700,color:'#FFF',flexShrink:0 }}>R</div>
-            <div>
-              <div style={{ fontSize:'13px',fontWeight:600,color:'#FFF' }}>Rena Amalia</div>
-              <div style={{ fontSize:'10px',color:'rgba(255,255,255,0.65)',marginTop:'1px' }}>Reseller Siavani · Yogyakarta</div>
-            </div>
-          </div>
-          <div style={{ padding:'16px',background:'#ECE5DC' }}>
-            <div style={{ background:'#DCF8C6',borderRadius:'10px 10px 3px 10px',padding:'11px 13px',maxWidth:'88%',marginLeft:'auto' }}>
-              <div style={{ fontSize:'13px',color:'#1A1714',lineHeight:1.6 }}>
-                awal coba dikit dulu, ternyata repeat terus<br/><br/>
-                ga nyangka bisa segini, makasi siavani udah mau bantu dari awal sampe sekarang
-              </div>
-              <div style={{ fontSize:'10px',color:'#8A8078',textAlign:'right',marginTop:'5px' }}>14:32 ✓✓</div>
-            </div>
-          </div>
-          <div style={{ padding:'12px 16px' }}>
-            <div style={{ fontSize:'11px',color:'#8A8078' }}><strong style={{ color:'#5A5248',fontWeight:600 }}>Bergabung 2023</strong> · Omzet terus bertumbuh</div>
-          </div>
-        </div>
-      </section>
-
       {/* HOW TO ORDER */}
       <section style={{ padding:'36px 20px',background:'#F7F4EF' }}>
         <div style={{ fontSize:'9px',fontWeight:600,color:'#A8A09A',letterSpacing:'2.5px',textTransform:'uppercase',marginBottom:'6px' }}>Cara Order</div>
