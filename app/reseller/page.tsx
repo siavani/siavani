@@ -4,6 +4,12 @@
 // ============================================================
 
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Jadi Reseller',
+  description: 'Gabung jadi reseller kosmetik Siavani. Tanpa stok dulu, harga reseller terbuka, cocok untuk pemula yang mau mulai bisnis dari rumah.',
+}
 
 const WA_NUMBER = '6283178890909'
 
