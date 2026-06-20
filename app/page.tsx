@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 // ============================================================
 // SIAVANI — Homepage
 // WA: 083178890909 → format internasional: 6283178890909
@@ -75,8 +78,8 @@ export default function Home() {
           <div style={S.logoLine} />
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <span style={S.navLink}>Katalog</span>
-          <span style={S.navLink}>Cara Order</span>
+          <Link href="/katalog" style={S.navLink}>Katalog</Link>
+          <a href="#cara-order" style={S.navLink}>Cara Order</a>
           <a href={waLink('Halo Siavani')} target="_blank" rel="noopener noreferrer" style={S.navWA}>WA</a>
         </div>
       </nav>
@@ -104,7 +107,7 @@ export default function Home() {
           harga reseller terbuka, admin siap bantu dari awal.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '22px' }}>
-          <a href="#katalog" style={S.btnDark}>Lihat Produk</a>
+          <Link href="/katalog" style={S.btnDark}>Lihat Produk</Link>
           <a
             href={waLink('Halo Siavani 🌸 Saya mau mulai tapi masih bingung. Boleh minta info reseller?')}
             target="_blank" rel="noopener noreferrer" style={S.btnWA}
@@ -207,13 +210,13 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <button style={{ display:'block',width:'100%',marginTop:'14px',padding:'12px',background:'transparent',border:'0.5px solid #DDD6CA',borderRadius:'8px',fontFamily:'var(--font-body)',fontSize:'12px',color:'#8A8078',cursor:'pointer',textAlign:'center' }}>
+        <Link href="/katalog" style={{ display:'block',width:'100%',marginTop:'14px',padding:'12px',background:'transparent',border:'0.5px solid #DDD6CA',borderRadius:'8px',fontFamily:'var(--font-body)',fontSize:'12px',color:'#8A8078',cursor:'pointer',textAlign:'center' }}>
           Lihat semua produk →
-        </button>
+        </Link>
       </section>
 
       {/* HOW TO ORDER */}
-      <section style={{ padding:'36px 20px',background:'#F7F4EF' }}>
+      <section id="cara-order" style={{ padding:'36px 20px',background:'#F7F4EF' }}>
         <div style={{ fontSize:'9px',fontWeight:600,color:'#A8A09A',letterSpacing:'2.5px',textTransform:'uppercase',marginBottom:'6px' }}>Cara Order</div>
         <div style={{ fontFamily:'var(--font-heading)',fontSize:'20px',fontWeight:400,color:'#1A1714',lineHeight:1.28,marginBottom:'20px' }}>Mudah, cukup 3 langkah</div>
         {[
@@ -255,7 +258,7 @@ export default function Home() {
         </div>
         <div style={{ fontSize:'11px',color:'#A8A09A',marginBottom:'15px',lineHeight:1.6 }}>Distributor kosmetik · Reseller welcome · 500+ produk pilihan</div>
         <div style={{ display:'flex',gap:'18px',flexWrap:'wrap',marginBottom:'14px' }}>
-          {['Katalog','Cara Order','WhatsApp','Brand'].map(l => <span key={l} style={{ fontSize:'11px',color:'#5A5248',cursor:'pointer' }}>{l}</span>)}
+          <Link href="/katalog" style={{ fontSize:'11px',color:'#5A5248',textDecoration:'none' }}>Katalog</Link><a href="#cara-order" style={{ fontSize:'11px',color:'#5A5248',textDecoration:'none' }}>Cara Order</a><a href={waLink('Halo Siavani, saya ingin bertanya')} target="_blank" rel="noopener noreferrer" style={{ fontSize:'11px',color:'#5A5248',textDecoration:'none' }}>WhatsApp</a>
         </div>
         <div style={{ fontSize:'10px',color:'#C0B8B0',paddingTop:'12px',borderTop:'0.5px solid #DDD6CA' }}>© 2025 Siavani. Distributor Kosmetik Indonesia.</div>
       </footer>
