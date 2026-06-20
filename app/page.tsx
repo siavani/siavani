@@ -146,7 +146,7 @@ export default function Home() {
       <div style={{ padding:'36px 22px',background:'#F7F4EF' }}>
         <div style={{ fontSize:'9px',fontWeight:600,color:'#A8A09A',letterSpacing:'2.5px',textTransform:'uppercase',marginBottom:'12px' }}>Tentang Siavani</div>
         <p style={{ fontFamily:'var(--font-heading)',fontSize:'18px',fontWeight:400,color:'#1A1714',lineHeight:1.62 }}>
-          Siavani bukan sekadar toko kosmetik. Kami ada karena percaya{' '}
+          Siavani bukan sekadar distributor kosmetik. Kami ada karena percaya{' '}
           <em style={{ fontStyle:'italic',color:'#8A6A4E' }}>perempuan Indonesia bisa membangun bisnis sendiri</em>{' '}
           — mulai dari langkah kecil di rumah, dengan produk yang tepat dan dukungan yang nyata.
         </p>
