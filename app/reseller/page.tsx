@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Gabung jadi reseller kosmetik Siavani. Tanpa stok dulu, harga reseller terbuka, cocok untuk pemula yang mau mulai bisnis dari rumah.',
 }
 
-const WA_NUMBER = '6283178890909'
+const WA_NUMBER = '6283105537799'
 
 function waLink(text: string) {
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`

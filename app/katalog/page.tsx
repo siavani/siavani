@@ -8,7 +8,7 @@
 import { useState, useMemo, useEffect } from 'react'
 import Link from 'next/link'
 
-const WA_NUMBER = '6283178890909'
+const WA_NUMBER = '6283105537799'
 const CATEGORIES = [
   'Semua',
   'Beauty Tools',
